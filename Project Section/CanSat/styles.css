@@ -1,0 +1,67 @@
+@font-face{
+    font-family: 'charter';
+    src: url(charter/webfonts/charter_regular-webfont.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'charter' ;
+    background-color: #D3E4CD;
+}
+
+
+#introimg{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+#satellite{
+    height: 300px;
+    width: 400px;
+}
+
+.centerimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sizeimg{
+    height: 300px;
+    width: 300px;
+}
+
+.imgsize{
+    width: 500px;
+    height: 200px;
+}
+
+.minicontainer{
+    display: flex;
+}
+
+.container1 , .container0 , .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9 , .container20, .container11, .container10 , .container12{
+    margin: 20px 20px 0 20px;
+}
+
+/* h2 , h3{
+    text-align: center; 
+*/
+#randomforest{
+    height: 350px;
+    width: 400px;
+}
+
+#regression{
+    height: 400px;
+    width: 600px;
+}
+
+#roccurve{
+    height:500px;
+    width: 500px;
+}
+#nepal{
+    height: 250px;
+    width: 500px;
+}
